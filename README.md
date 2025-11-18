@@ -35,9 +35,6 @@ This project consists of two main tasks:
 
 ```
 project/
-├── notebooks/                     # Jupyter notebooks
-│   ├── README.md
-│   └── project.ipynb              # Main project notebook
 ├── .gitignore                 # Git ignore rules
 ├── PROJECT_LOG.MD             # log file
 ├── README.md                  # This file
