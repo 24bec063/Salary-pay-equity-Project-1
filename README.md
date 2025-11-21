@@ -34,12 +34,14 @@ This project consists of two main tasks:
 ## 🗂️ Project Structure
 
 ```
-project/
-├── .gitignore                 # Git ignore rules
-├── PROJECT_LOG.MD             # log file
+Salary-pay-equity-Project-1/
+├── .git/                      # Git repository
+├── project.ipynb              # Main Jupyter notebook with full analysis
+├── PROJECT_LOG.md             # Project log file
 ├── README.md                  # This file
 ├── requirements.txt           # Python dependencies
-└── run.sh                     # Automated execution script
+├── run.ps1                    # Automated execution script (Windows)
+└── run.sh                     # Automated execution script (Linux/Mac)
 ```
 
 
@@ -75,14 +77,47 @@ pip install -r requirements.txt
 
 ### Running the Project
 
-**Option 1: Automated execution**
-```bash
-bash run.sh
+**Option 1: Automated execution with scripts**
+
+**Windows (PowerShell):**
+```powershell
+# Using PowerShell script
+.\run.ps1
 ```
 
-**Option 2: Manual Jupyter execution**
+**Linux/Mac (Bash):**
 ```bash
-jupyter notebook notebooks/project.ipynb
+# Using shell script
+bash run.sh
+# or
+chmod +x run.sh
+./run.sh
+```
+
+**Option 2: Manual execution**
+
+**Windows (Command Prompt or PowerShell):**
+```powershell
+# Activate virtual environment
+.venv\Scripts\activate
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run Jupyter notebook
+jupyter notebook project.ipynb
+```
+
+**Linux/Mac (Terminal):**
+```bash
+# Activate virtual environment
+source .venv/bin/activate
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run Jupyter notebook
+jupyter notebook project.ipynb
 ```
 
 ## 📁 File Descriptions
@@ -90,9 +125,10 @@ jupyter notebook notebooks/project.ipynb
 | File | Purpose |
 |------|---------|
 | `project.ipynb` | Main Jupyter notebook with full analysis |
-| `run.sh` | Automated script to install dependencies and run notebook |
+| `PROJECT_LOG.md` | Project progress and execution log |
+| `run.ps1` | Automated setup and execution script for Windows |
+| `run.sh` | Automated setup and execution script for Linux/Mac |
 | `requirements.txt` | Python package dependencies |
-| `salary_prediction_results.csv` | Model predictions and residuals |
 
 ## 🛠️ Technology Stack
 
