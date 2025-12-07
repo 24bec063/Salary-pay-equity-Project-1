@@ -2,8 +2,8 @@
 ## 5-Day Development Timeline
 
 **Project**: Machine Learning: Salary Prediction & Fairness Analysis  
-**Start Date**: November 12, 2025  
-**End Date**: November 17, 2025  
+**Start Date**: November 17, 2025  
+**End Date**: November 21, 2025  
 **Status**: Comprehensive Log from Scratch to Completion
 **Data Source**: Stack Overflow Developer Survey 2024
 
@@ -20,7 +20,7 @@
 
 ## Day 1 - Project Setup & Data Exploration
 
-**Date**: November 12, 2025  
+**Date**: November 17, 2025  
 **Focus**: Environment setup, project initialization, and initial data exploration
 
 ### Morning Session (9:00 AM - 12:00 PM)
@@ -74,10 +74,6 @@
 - Wide variation in data quality across columns
 - Non-numeric year values needed conversion
 
-#### Code Created:
-- `notebooks/project.ipynb` - Main analysis notebook initiated
-- First cells: Data loading and structure exploration
-
 #### Commits:
 ```
 - "Initial project setup and structure"
@@ -99,18 +95,13 @@
 - **Status**: Project foundation established ✓
 - **Records Loaded**: 65,437
 - **Features Identified**: 8 core features for analysis
-- **Lines of Code**: ~50
 - **Next**: Data cleaning and preprocessing
-
-**Time Logged**: 8 hours  
-**Lines of Code Written**: ~50  
-**Commits**: 3
 
 ---
 
 ## Day 2 - Data Cleaning & Preprocessing
 
-**Date**: November 13, 2025  
+**Date**: November 18, 2025  
 **Focus**: Systematic data cleaning, handling missing values, feature encoding
 
 ### Morning Session (9:00 AM - 12:00 PM)
@@ -151,7 +142,7 @@
 
 ### Afternoon Session (1:00 PM - 5:00 PM)
 
-4. ✅ **One-Hot Encoding & Feature Transformation**
+4. ✅ **Encoding & Feature Transformation**
    - Applied StandardScaler preprocessing for numeric features
    - One-hot encoded categorical columns:
      - Country, EdLevel, DevType, Age, Employment, OrgSize
@@ -173,15 +164,10 @@
 #### End of Day Summary:
 - **Status**: Data cleaned and preprocessed ✓
 - **Records Remaining**: 22,353 (fully cleaned)
-- **Complete Records**: 100%
-- **Lines of Code**: ~100
-- **Time Logged**: 8 hours
-- **Next**: EDA and visualization
----
 
 ## Day 3 - EDA & Feature Analysis
 
-**Date**: November 14, 2025  
+**Date**: November 19, 2025  
 **Focus**: Exploratory analysis, visualization, correlation analysis
 
 ### Morning Session (9:00 AM - 12:00 PM)
@@ -267,14 +253,13 @@
 - **Status**: EDA complete with comprehensive visualizations ✓
 - **Visualizations Created**: 7 charts
 - **Correlations Calculated**: Multiple analyses
-- **Lines of Code**: ~200
 - **Time Logged**: 8 hours
 - **Next**: Model development and training
 ---
 
 ## Day 4 - Model Development & Training
 
-**Date**: November 15, 2025  
+**Date**: November 20, 2025  
 **Focus**: Build, train, and evaluate regression and classification models
 
 ### Morning Session (9:00 AM - 12:00 PM)
@@ -431,7 +416,6 @@ F1-Score            0.8005
 - **Classification Models**: 1 (Logistic Regression)
 - **Best R² Score**: 0.5789 (Linear Regression)
 - **Classification Accuracy**: 67.54%
-- **Lines of Code**: ~300
 - **Time Logged**: 8 hours
 - **Next**: Final evaluation, testing, and documentation
 
@@ -439,7 +423,7 @@ F1-Score            0.8005
 
 ## Day 5 - Final Evaluation & Documentation
 
-**Date**: November 17, 2025  
+**Date**: November 21, 2025  
 **Focus**: Comprehensive evaluation, insights, final testing, and documentation
 
 ### Morning Session (9:00 AM - 12:00 PM)
@@ -611,12 +595,7 @@ KEY RECOMMENDATIONS:
 - **All Tests Passed**: ✓
 - **Documentation Complete**: ✓
 - **Lines of Code**: ~600 (Day 5)
-- **Time Logged**: 8 hours
 - **Final Status**: PRODUCTION READY
-
-**Lines of Code Written (Day 5)**: ~150  
-**Commits (Day 5)**: 4  
-**Documentation Files**: 2
 
 ---
 
@@ -706,7 +685,7 @@ Decrease Fairness (Negative Coefficients):
 
 ---
 
-**Project Log Completed**: November 17, 2025  
+**Project Log Completed**: November 21, 2025  
 **Total Development Time**: 40 hours (5 days × 8 hours)  
 **Status**: COMPLETE  
 **Data Used**: Stack Overflow Developer Survey 2024 (22,353 cleaned records)
